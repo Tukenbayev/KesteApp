@@ -1,0 +1,134 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
+    background-color:#d3d9de;
+}
+
+div#container{
+    background-color: #fff;
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 28px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.header{
+    text-align: center;
+}
+
+.speech{
+    margin-top: 55px;
+    font-weight:300;
+    font-size: 27px;
+    color: #555;
+}
+
+.enter{
+    margin-top: 0px;
+    font-weight:400;
+    font-size: 20px;
+    color: #555;
+}
+#logo{
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_ava{
+     width: 30%;
+     margin-left: 141px;
+     margin-top: 50px;
+ }
+
+.img_ava2{
+    width: 30%;
+    margin-left: 141px;
+    margin-top: -15px;
+}
+
+.back{
+    width: 8%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.back:hover{
+    cursor:pointer;
+}
+
+p.back2main{
+    color: #3079ed;
+    font-size:14px;
+    margin-left: 219px;
+}
+
+p.back2main:hover{
+    cursor: pointer;
+}
+
+.input{
+    width: 284px;
+    height: 45px;
+    margin-left: 55px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    color: #404040;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+.inputs{
+    margin-top: 35px;
+}
+
+
+button{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left:55px;
+    border-radius:3px;
+    width: 284px;
+    height:43px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
+button:hover{
+    cursor: pointer;
+    color: #404040;
+    background: #fff;
+
+}
+
+.username{
+    text-align: center;
+    line-height:0px;
+    color: #404040;
+}
+
+div#second{
+    display:none;
+    padding-bottom: 15px;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    width: 284px;
+    margin-left: 55px;
+    margin-bottom: 2px;
+    display: none;
+}
+
+.inputError{
+    border-color: red;
+}
+

@@ -1,0 +1,91 @@
+body{
+    background: #edeef0;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+}
+
+div.top{
+    height: 80px;
+    background-color: #fff;
+    margin: -20px -8px -20px;
+    padding-top: 35px;
+    padding-left: 35px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+p.resultCounter{
+    margin-left: 202px;
+}
+
+div.container{
+     margin-top: 35px;
+     height: auto;
+}
+.schoolName{
+    font-size:18px;
+    color: blue;
+}
+
+.address{
+    font-size: 15px;
+    color: grey;
+}
+
+div.result{
+    width: 600px;
+    height: 120px;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-left: 202px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+
+}
+
+div.right{
+    float: right;
+    margin-right: 30px;
+}
+.form{
+    margin-left: 20px;
+}
+
+#searchName{
+    height: 45px;
+    width: 515px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    color: #404040;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+.element{
+    float: left;
+}
+
+img.logo{
+    margin-top: -4px;
+    width: 185px;
+    height: 54px;
+}
+.btn {
+    font-weight: bold;
+    border-radius:3px;
+    width: 120px;
+    height:47px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #404040;
+    background: #fff;
+}

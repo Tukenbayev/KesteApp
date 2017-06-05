@@ -1,0 +1,65 @@
+div.container{
+    display: block;
+}
+
+div.subject{
+    height: 65px;
+    border: 1px dashed lightgrey;
+    background-color: #edf0f5;
+}
+
+img.add{
+    width: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+p.error{
+    color: red;
+    font-size: 14px;
+}
+
+div.errors{
+    text-align: center;
+}
+
+#save{
+    float: right;
+    margin-top: -89px;
+    margin-right: 100px;
+}
+
+select.selector{
+    height: 26px;
+    -webkit-appearance: none;
+    width: 150px;
+    margin-top: 6px;
+    margin-left: 10px;
+    padding-left: 5px;
+    float:left;
+}
+div.tools{
+    float: right;
+    width: 20px;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+img.tool{
+    width: 20px;
+    cursor: pointer;
+}
+img.tool:hover:after{
+    content: attr(data-title);
+}
+
+.saveSubject{
+    width: 25px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+div.addedSubject{
+    background-color: #4787ed;
+}

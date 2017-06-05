@@ -1,0 +1,149 @@
+body{
+    background: #edeef0;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+}
+
+div.top{
+    height: 120px;
+    background-color: #fff;
+    margin: -20px -8px -20px;
+    padding-top: 35px;
+    padding-left: 35px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+
+div.day{
+    float: left;
+    width: 206px;
+    height: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+button#hidehws{
+    margin-left: 16px;
+}
+
+div.hws{
+    display: none;
+    width: 190px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding-top: 5px;
+
+}
+
+p#school{
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+div.hw{
+    text-align: left;
+    background-color: #edf0f5;
+    border-radius: 2px;
+    max-width: 165px;
+    height: auto;
+    float: right;
+    margin-right: 5px;
+    padding: 5px;
+    clear: both;
+    margin-bottom:5px;
+}
+
+span.hwtext{
+    font-size:13px;
+}
+
+
+p.subjectName{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+
+p.subjectName:hover{
+    text-decoration: underline;
+}
+
+p.teacher{
+    color: #ffffff;
+    font-size:14px;
+    cursor: pointer;
+}
+
+p.teacher:hover{
+    text-decoration: underline;
+}
+
+div.subject{
+    width: 205px;
+    height: auto;
+    border: 1px solid black;
+    background-color: #4d90fe;
+    padding-bottom: 5px;
+
+}
+
+div.innersub{
+    display: none;
+    border: none;
+    border-top: 1px dashed white;
+}
+
+div.days{
+    margin-left: 15px;
+}
+span.day_name{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+div.container{
+    display: none;
+    width: 1280px;
+    height: auto;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+
+}
+
+.classNumber{
+    width: 100px;
+    height: 37px;
+    -webkit-appearance: none;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+.btn {
+    font-weight: bold;
+    border-radius:3px;
+    width: auto;
+    height:39px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #404040;
+    background: #fff;
+}

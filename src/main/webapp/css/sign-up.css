@@ -1,0 +1,118 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
+    background-color:#d3d9de;
+}
+
+.label{
+    margin-left: 55px;
+    color: #404040;
+    font-size: 14px;
+    margin-bottom:2px;
+    margin-top: 17px;
+}
+.small{
+    font-size: 12px;
+}
+
+
+div#container{
+    background-color: #fff;
+    width: 700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 28px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    height: auto;
+    padding-top: 20px;
+}
+
+.input{
+    width: 450px;
+    height: 45px;
+    margin-left: 55px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    color: #404040;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+
+input[type="submit"]{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 205px;
+    border-radius:3px;
+    width: 284px;
+    height:43px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    margin-bottom: 40px;
+
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: #404040;
+    background: #fff;
+}
+
+.big{
+    font-weight:300;
+    font-size: 27px;
+    color: #555;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.shrt{
+    width: 250px;
+}
+
+
+
+.back{
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    margin-top: 2px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-left: 24px;
+}
+
+#back{
+    width: 50%;
+    margin-left: 18px;
+    margin-top: 17px;
+}
+
+#back:hover{
+    cursor: pointer;
+}
+
+.disabled{
+    background-color: #d3d9de;
+}
+
+.empty{
+    border: 1px solid red;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    margin-left: 55px;
+    display:none;
+}
+
+span.right{
+    margin-left: 10px;
+    display: none;
+}
+

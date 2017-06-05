@@ -1,0 +1,258 @@
+body{
+    background: #edeef0;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+}
+
+div.top{
+    height: 80px;
+    background-color: #fff;
+    margin: -20px -8px -20px;
+    padding-top: 35px;
+    padding-left: 35px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+img#logo{
+    width: 185px;
+    height: 57px;
+    float: right;
+    margin-right: 47px;
+}
+
+img.profile{
+    width: 50px;
+    margin-bottom: -20px;
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius:3px;
+    width: auto;
+    height:47px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    padding: 5px 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #404040;
+    background: #fff;
+}
+
+.class{
+    display: none;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-bottom: 15px;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    float: left;
+}
+
+.create-class{
+    width: 400px;
+    min-height:265px;
+    height: auto;
+    margin-left: 108px;
+}
+
+div.class > span{
+    margin-left: 15px;
+}
+
+span.digit{
+    font-size: 17px;
+    color: #212121;
+    margin-right: 10px;
+}
+
+.classes{
+    min-width: 375px;
+    max-width: 600px;
+    padding-right:30px;
+}
+
+img.close{
+    float: right;
+    width: 30%;
+    margin-top: -17px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    height: 45px;
+    width: 150px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    color: #404040;
+    font-size: 16px;
+    padding: 0 8px;
+    margin-bottom: 25px;
+}
+
+.error{
+    display: none;
+    font-size: 14px;
+    color: red;
+    margin-top: -8px;
+    margin-bottom: 4px;
+}
+.clss{
+    font-size: 20px;
+    color: #212121;
+}
+
+div.clcont{
+    margin-bottom: 10px;
+}
+
+div.letter{
+    display: inline-block;
+    width: 55px;
+    height: 35px;
+    background-color: #edf0f5;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+div.letter>span{
+    margin-left: auto;
+    margin-right: auto;
+}
+button#createClass{
+    width: 200px;
+    margin-left: 83px;
+}
+
+div.no-cl{
+    width: 300px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+/* Start create teacher css*/
+
+div.main{
+    display: none;
+    width: 600px;
+    height: 465px;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-bottom: 15px;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    float: left;
+
+}
+
+div.teachers{
+    width: 280px;
+    height: auto;
+    max-height: 465px;
+    margin-left: 11px;
+    overflow-y: scroll;
+}
+
+
+.tbtn{
+    margin-top: 5px;
+}
+
+
+input#phone{
+    width: 250px;
+}
+
+input#name, #subject{
+    width: 400px;
+}
+
+
+.small{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+
+.label{
+    margin-bottom: 10px;
+}
+
+span{
+    font-size:15px;
+}
+
+#addTeacher{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 280px;
+}
+
+div#subjects{
+    height: auto;
+    overflow: inherit;
+}
+
+div.subject{
+    width: 240px;
+    height: auto;
+    font-weight: bold;
+    border-radius:3px;
+    border: 1px solid #3079ed;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    padding: 5px 10px;
+    font-size:14px;
+    text-align: center;
+    margin-top: 10px;
+    color: #404040;
+    background: #fff;
+}
+
+img.remove{
+    width: 17px;
+    float: right;
+    cursor: pointer;
+}
+
+img.edit{
+    width: 14px;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+#save{
+    display: none;
+}
+
+.empty{
+    color: red;
+    font-size: 13px;
+    display: none;
+}
+
+button#addSubject{
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
